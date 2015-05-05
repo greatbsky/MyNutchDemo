@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>http.agent.name</name>
+		<value>My Great Spider</value>
+	</property>
+	<property>
+        <name>parser.character.encoding.default</name>
+        <value>utf-8</value>
+        <description>The character encoding to fall back to when no other information is available</description>
+    </property>
+    <property>
+	  <name>plugin.folders</name>
+	  <value>E:/MyProjs/mynutch/src/plugins</value>
+	  <description>Directories where nutch plugins are located.  Each
+	  element may be a relative or absolute path.  If absolute, it is used
+	  as is.  If relative, it is searched for on the classpath.</description>
+	</property>
+</configuration>
